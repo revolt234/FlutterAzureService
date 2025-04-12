@@ -1,0 +1,31 @@
+name: app_tesi
+description: Una nuova app Flutter
+
+# Il punto di SDK di Flutter
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  audioplayers: ^5.0.1
+  provider: ^6.0.1
+  cupertino_icons: ^1.0.8
+  path_provider: ^2.1.1
+  flutter_markdown: ^0.7.7
+  flutter_dotenv: ^5.1.0 # Assicurati di usare l'ultima versione disponibile
+  google_generative_ai: ^0.4.6
+  url_launcher: ^6.0.9  # o la versione più recente
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/cartellaTrascrizioni/
+    - assets/cartellaTALD/jsonTald.json
+    - .env

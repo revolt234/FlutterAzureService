@@ -1,0 +1,424 @@
+{
+  "transcription": [
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 0.84096875,
+      "end": 1.65096875,
+      "text": " Come si chiama?"
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 2.34284375,
+      "end": 3.1359687500000004,
+      "text": " Sono Ciro."
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 5.16096875,
+      "end": 8.77221875,
+      "text": " di solito come trascurre l'estate"
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 9.83534375,
+      "end": 29.29221875,
+      "text": " l'estate di solito la trascorro passeggiando i luoghi ombrati della città quando non sono al lavoro vado a prendere un aperitivo nella città di napoli che la mia città e che in cui mi trovo bene vivo"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 29.91659375,
+      "end": 30.777218750000003,
+      "text": " E non va al mare."
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 31.08096875,
+      "end": 31.688468750000002,
+      "text": " Quasi mai."
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 31.941593750000003,
+      "end": 32.73471875,
+      "text": " in montagna"
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 33.20721875,
+      "end": 33.62909375,
+      "text": " nemmeno"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 33.713468750000004,
+      "end": 34.94534375,
+      "text": " Non le piace."
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 35.55284375,
+      "end": 36.36284375,
+      "text": " nell'uno e nell'altro"
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 37.22346875,
+      "end": 41.931593750000005,
+      "text": " il mare un po mi scoccia la sabbia e poi per il problema del melanoma adesso giurato"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 41.610968750000005,
+      "end": 44.73284375,
+      "text": " è ragione"
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 44.49659375,
+      "end": 45.57659375,
+      "text": " già vi dava prima"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 46.11659375,
+      "end": 47.922218750000006,
+      "text": " Senta, lei ha mai avuto delle voci?"
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 49.01909375,
+      "end": 51.314093750000005,
+      "text": " allora io voci non ne ho mai avute"
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 53.38971875,
+      "end": 55.38096875,
+      "text": " però sentivo cose."
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 56.32596875,
+      "end": 58.65471875,
+      "text": " suoni amplificati"
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 58.75596875,
+      "end": 64.86471875000001,
+      "text": " attualmente attualmente ringraziano dio sono 3 mesi che non mi capita proprio dopo"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 58.890968750000006,
+      "end": 59.78534375,
+      "text": " Attualmente?"
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 65.10096875,
+      "end": 65.11784375,
+      "text": " Grazie a tutti."
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 65.11784375,
+      "end": 65.72534375000001,
+      "text": " 3 mesi."
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 65.15159375,
+      "end": 73.47096875,
+      "text": " Tre mesi. Tre mesi dopo tantissimi anni, perché poi questi fenomeni si accentuavano quando la terapia farmacologica era più forte."
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 74.44971875,
+      "end": 74.55096875000001,
+      "text": " Grazie."
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 76.28909375,
+      "end": 76.74471875,
+      "text": " Va bene."
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 78.01034375,
+      "end": 82.98846875000001,
+      "text": " Mi spiegherebbe il significato di questi proverbi? Chi troppo vuole nulla stringe."
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 83.96721875,
+      "end": 90.61596875000001,
+      "text": " chi pretende di guadagnare troppo o di avere 10 mogli non ne ha nemmeno una e non guadagna nemmeno un centesimo"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 91.40909375000001,
+      "end": 93.31596875000001,
+      "text": " Chi ha tempo non aspetti tempo."
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 95.74596875,
+      "end": 101.63534375,
+      "text": " che si dia da fare che non fa niente dalla mattina alla sera e si sbrighi a fare qualcosa."
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 102.76596875000001,
+      "end": 105.09471875000001,
+      "text": " Perché secondo lei le persone credono in Dio?"
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 107.57534375,
+      "end": 108.31784375000001,
+      "text": " per ignoranza."
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 110.14034375000001,
+      "end": 110.62971875000001,
+      "text": " solo"
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 111.74346875,
+      "end": 114.76409375,
+      "text": " La religione non più dei popoli, secondo me."
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 117.80159375000001,
+      "end": 120.94034375000001,
+      "text": " da adesso se le faccio una domanda mi risponde sì"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 121.53096875000001,
+      "end": 123.23534375000001,
+      "text": " Mi fa anche un esempio, va bene?"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 124.83846875,
+      "end": 129.00659375,
+      "text": " Le capita di pensare che il suo pensiero sia meno fantasioso che in passato?"
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 131.20034375,
+      "end": 142.28721875000002,
+      "text": " Si, si. Ma io ho avuto pensieri fantasiosi in passato del tipo vengo da un altro pianeta, nelle fasi maniacali ovviamente."
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 142.72596875000002,
+      "end": 146.59034375000002,
+      "text": " ma era tutto strettamente collegato al fatto che io nella fase maniacale"
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 147.18096875,
+      "end": 148.90221875,
+      "text": " sento le manie di persecuzione."
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 149.69534375,
+      "end": 150.40409375000002,
+      "text": " in che modo"
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 151.34909375,
+      "end": 159.76971875,
+      "text": " che se due parlano fuori a un bar e io passo penso che stiano parlando di me. Se uno si tocca gli occhiali penso che stia facendo un gesto a me."
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 159.76971875,
+      "end": 161.08596875,
+      "text": " Attualmente no."
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 161.27159375000002,
+      "end": 161.60909375,
+      "text": " No."
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 161.60909375,
+      "end": 161.65971875,
+      "text": " Grazie."
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 161.74409375000002,
+      "end": 162.70596875,
+      "text": " Grazie a Dio."
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 163.88721875000002,
+      "end": 168.52784375000002,
+      "text": " Le è mai capitato di sentire che i pensieri svanissero o di perdere il filo del pensiero?"
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 168.52784375000002,
+      "end": 171.37971875000002,
+      "text": " No mai, nemmeno quando pensavo di venire da parte."
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 173.89409375000002,
+      "end": 181.60596875000002,
+      "text": " Le capita mai di avere la sensazione di doversi sforzare per creare un pensiero, come se dovesse entrare o andare contro una resistenza?"
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 181.65659375,
+      "end": 181.97721875000002,
+      "text": " no"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 183.69846875000002,
+      "end": 189.85784375,
+      "text": " A volte si sente spinto a pensare a un argomento in particolare anche se vuole pensare a qualcos'altro o vuole addormentarsi. No."
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 191.81534375,
+      "end": 195.98346875000001,
+      "text": " Le capita mai di perdere il filo del discorso quando si trova nel bel mezzo di una conversazione?"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 197.72159375,
+      "end": 201.97409375,
+      "text": " Ha la sensazione che i suoi discorsi non siano precisi e fluidi come vorrebbe."
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 202.15971875000002,
+      "end": 202.46346875,
+      "text": " No."
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 203.98221875000002,
+      "end": 210.31034375000002,
+      "text": " Rispetto al passato, ha la sensazione di aver perso l'iniziativa di pensare e la capacità di partecipare alle conversazioni?"
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 210.316159375,
+      "end": 210.36409375000002,
+      "text": " no"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 212.13284375,
+      "end": 215.67659375000002,
+      "text": " Ha mai avuto pensieri che non riesce a fermare o a controllare?"
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 217.16159375,
+      "end": 217.36409375000002,
+      "text": " no"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 220.65471875,
+      "end": 227.42159375000003,
+      "text": " A volte le capita di avere molte idee che le vengono in mente rapidamente una dopo l'altra o anche insieme e si sente sopraffatto."
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 228.33284375000002,
+      "end": 235.48784375000002,
+      "text": " Mi capita di avere molte idee una dietro l'altra ma le gestisco tutte quante rapidamente e agisco."
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "medico",
+      "start": 236.17971875,
+      "end": 236.97284375,
+      "text": " Grazie."
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "paziente",
+      "start": 236.97284375,
+      "end": 237.07409375,
+      "text": " Grazie."
+    }
+  ]
+}

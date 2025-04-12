@@ -1,0 +1,361 @@
+{
+  "transcription": [
+    {
+      "speaker": "SPEAKER_01",
+      "role": "medico",
+      "start": 1.5834687500000002,
+      "end": 2.3934687500000003,
+      "text": " Come ti chiami?"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "paziente",
+      "start": 2.49471875,
+      "end": 3.4397187500000004,
+      "text": " Santo"
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "medico",
+      "start": 4.08096875,
+      "end": 5.05971875,
+      "text": " Quando sei nato?"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "paziente",
+      "start": 5.363468750000001,
+      "end": 9.025343750000001,
+      "text": " il 24 febbraio del 1985."
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "medico",
+      "start": 9.801593750000002,
+      "end": 14.880968750000001,
+      "text": " Mi racconti la tua giornata di ieri da quando ti sei svegliato a quando ti sei messo a letto?"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "paziente",
+      "start": 15.015968750000003,
+      "end": 20.68596875,
+      "text": " sì allora praticamente mi sono alzato mi sono fatto la doccia"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "paziente",
+      "start": 21.42846875,
+      "end": 25.410968750000002,
+      "text": " Dopo avermi fatto la doccia ho fatto colazione."
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "paziente",
+      "start": 26.28846875,
+      "end": 29.69721875,
+      "text": " poi..."
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "paziente",
+      "start": 29.96721875,
+      "end": 30.034718750000003,
+      "text": " Grazie."
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "paziente",
+      "start": 30.49034375,
+      "end": 30.60846875,
+      "text": " Grazie."
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "paziente",
+      "start": 30.91221875,
+      "end": 35.282843750000005,
+      "text": " sono stato, ho giocato con gli altri pazienti"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "paziente",
+      "start": 36.71721875,
+      "end": 47.095343750000005,
+      "text": " alla fine è arrivato il pranzo, ho dormito un pochino e poi ho aspettato la cena."
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "paziente",
+      "start": 48.141593750000006,
+      "end": 57.25409375,
+      "text": " Dopo la cena abbiamo giocato un'altra volta e poi abbiamo finito, siamo andati a dormire."
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "medico",
+      "start": 61.37159375,
+      "end": 74.63534375,
+      "text": " Hai detto, vabbè, te l'ho chiesto ma te lo richiedo, tu senti le voci? No. Ok. Mi spiegheresti il significato di questo proverbio? Chi va con lo zoppo impara a zoppicare."
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "paziente",
+      "start": 66.82221875,
+      "end": 67.22721875,
+      "text": " No."
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "paziente",
+      "start": 75.79971875000001,
+      "end": 84.65909375000001,
+      "text": " Chi va per cattive strade, chi va con una persona cattiva, alla fine diventa cattivo pure lui."
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "medico",
+      "start": 85.14846875,
+      "end": 87.29159375,
+      "text": " Chi ha tempo non aspetti tempo."
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "paziente",
+      "start": 89.72159375000001,
+      "end": 95.25659375000001,
+      "text": " chi ha tempo a disposizione non perdà il tempo a disposizione che c'ha"
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "medico",
+      "start": 95.96534375,
+      "end": 96.03284375000001,
+      "text": " Grazie."
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "medico",
+      "start": 96.84284375,
+      "end": 98.74971875,
+      "text": " Che cosa ne pensi dell'amore?"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "paziente",
+      "start": 99.76221875,
+      "end": 106.84971875000001,
+      "text": " L'amore è una cosa bella, è una cosa rara però ai giorni d'oggi."
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "medico",
+      "start": 107.67659375000001,
+      "end": 108.28409375000001,
+      "text": " ok"
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "medico",
+      "start": 110.17409375000001,
+      "end": 117.36284375000001,
+      "text": " Senti, ti è mai capitato di pensare che il tuo pensiero fosse meno fantasioso che in passato?"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "paziente",
+      "start": 117.85221875,
+      "end": 121.98659375000001,
+      "text": " Sì, sì, mi sono accorto che il mio pensiero è meno fantasioso del passato."
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "medico",
+      "start": 122.22284375000001,
+      "end": 123.64034375000001,
+      "text": " Questa cosa ti crea problemi."
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "paziente",
+      "start": 123.87659375000001,
+      "end": 124.31534375000001,
+      "text": " sì"
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "medico",
+      "start": 127.58909375,
+      "end": 133.78221875,
+      "text": " Ma invece ti è mai capitato di sentire che i pensieri svanissero o di perdere il filo del discorso?"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "paziente",
+      "start": 135.67221875,
+      "end": 149.08784375000002,
+      "text": " a volte sì, a volte mi capita a volte ma raramente anzi mi capita questa cosa qui di perdere il filo del discorso"
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "medico",
+      "start": 150.18471875,
+      "end": 155.12909375,
+      "text": " Ti è mai capitato di percepire invece il tuo pensiero come inibito, rallentato?"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "paziente",
+      "start": 155.26409375,
+      "end": 155.80409375000002,
+      "text": " sì"
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "medico",
+      "start": 157.01909375,
+      "end": 159.26346875000002,
+      "text": " Quanto frequentemente, quanto ti da fastidio?"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "paziente",
+      "start": 158.82471875000002,
+      "end": 162.18284375000002,
+      "text": " Raramente, mi dà fastidio sta cosa."
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "medico",
+      "start": 165.16971875000002,
+      "end": 171.91971875000002,
+      "text": " Ti capita di sentirti spinto a pensare ad un argomento in particolare, anche se tu vorresti pensare ad altro?"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "paziente",
+      "start": 172.51034375,
+      "end": 176.89784375000002,
+      "text": " sì mi capita"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "paziente",
+      "start": 178.36596875,
+      "end": 186.09471875,
+      "text": " però pensieri di cose materiali ad esempio se devo pensare all'auto non vorrei pensare all'auto"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "paziente",
+      "start": 186.97221875000002,
+      "end": 187.88346875000002,
+      "text": " Queste cose qui"
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "medico",
+      "start": 189.25034375,
+      "end": 195.32534375,
+      "text": " Secondo te sei ancora in grado di seguire conversazioni e film come prima?"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "paziente",
+      "start": 195.46034375000002,
+      "end": 197.51909375000002,
+      "text": " Certo, certo, senza problemi."
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "medico",
+      "start": 198.32909375,
+      "end": 205.45034375,
+      "text": " e invece ti capita di avere la sensazione che i tuoi discorsi non siano precisi e fluidi come vorresti?"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "paziente",
+      "start": 206.46284375000002,
+      "end": 215.89596875,
+      "text": " Alle volte mi capita, ma non sempre. Anzi, i miei discorsi sono fluidi e sono comprensibili."
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "medico",
+      "start": 216.33471875,
+      "end": 217.07721875000001,
+      "text": " Ok."
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "medico",
+      "start": 218.35971875,
+      "end": 222.91596875000002,
+      "text": " Ti capita che ti manca la forza o l'energia per pensare?"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "paziente",
+      "start": 224.35034375,
+      "end": 225.66659375,
+      "text": " no"
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "medico",
+      "start": 227.55659375000002,
+      "end": 233.78346875000003,
+      "text": " Hai mai avuto pensieri che hai vissuto come invadenti estranei come se non fossero tuoi?"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "paziente",
+      "start": 233.95221875000001,
+      "end": 236.53409375,
+      "text": " si si si, molto in passato"
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "medico",
+      "start": 236.61846875,
+      "end": 246.72659375,
+      "text": " Ok, e invece ti è mai capitato di sentire, di non poter controllare i tuoi pensieri e avere molti pensieri contemporaneamente?"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "role": "paziente",
+      "start": 248.43096875,
+      "end": 255.34971875000002,
+      "text": " Sì, mi è capitato di avere un po' la mente affollata di pensieri."
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "medico",
+      "start": 251.83971875,
+      "end": 251.95784375000002,
+      "text": " Grazie."
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "medico",
+      "start": 251.97471875000002,
+      "end": 252.02534375000002,
+      "text": " Grazie."
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "medico",
+      "start": 255.73784375000002,
+      "end": 256.07534375,
+      "text": " Ok."
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "role": "medico",
+      "start": 257.10471875,
+      "end": 258.62346875000003,
+      "text": " Ok, allora."
+    }
+  ]
+}
