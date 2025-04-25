@@ -7,43 +7,52 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // 1. Carica PRIMA le variabili d'ambiente
+  // Carica le variabili d'ambiente
   await dotenv.load(fileName: ".env");
 
-  // 2. Debug: verifica che le chiavi siano state caricate
+  // Debug: verifica che le chiavi Azure siano state caricate
   debugPrint(
-      "GOOGLEAI_API_KEY loaded: ${dotenv.env['GOOGLEAI_API_KEY']?.isNotEmpty ?? false}");
+      "AZURE_OPENAI_KEY loaded: ${dotenv.env['AZURE_OPENAI_KEY']?.isNotEmpty ?? false}");
   debugPrint(
-      "AZURE_KEY loaded: ${dotenv.env['AZURE_KEY']?.isNotEmpty ?? false}");
+      "AZURE_SEARCH_KEY loaded: ${dotenv.env['AZURE_SEARCH_KEY']?.isNotEmpty ?? false}");
+  debugPrint(
+      "AZURE_KEY (TTS) loaded: ${dotenv.env['AZURE_KEY']?.isNotEmpty ?? false}");
 
-  // 3. Solo ora inizializza il provider
+  // Inizializza il provider
   final chatProvider = ChatProvider();
   await chatProvider.initialize();
+
+  // Verifica le connessioni ai servizi Azure
+  final connectionSuccess = await chatProvider.testConnections();
+  if (!connectionSuccess) {
+    debugPrint("Errore nella connessione ai servizi Azure");
+  }
 
   runApp(
     ChangeNotifierProvider.value(
       value: chatProvider,
-      child: const GenerativeAISample(),
+      child: const AzureAIChatApp(),
     ),
   );
 }
 
-class GenerativeAISample extends StatelessWidget {
-  const GenerativeAISample({super.key});
+class AzureAIChatApp extends StatelessWidget {
+  const AzureAIChatApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Medical Interview AI',
+      title: 'Azure AI Chat',
       theme: ThemeData(
-        useMaterial3: true, // Spostato all'inizio del ThemeData
+        useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(
           brightness: Brightness.dark,
-          seedColor: const Color.fromARGB(255, 171, 222, 244),
+          seedColor:
+              const Color.fromARGB(255, 100, 181, 246), // Colore blu Azure
         ),
       ),
-      home: const ChatScreen(title: 'Medical Interview AI'),
+      home: const ChatScreen(title: 'Azure AI Chat'),
     );
   }
 }
@@ -65,7 +74,7 @@ class _ChatScreenState extends State<ChatScreen> {
         actions: [
           IconButton(
             icon: const Icon(Icons.info_outline),
-            onPressed: () => _showInstructions(context),
+            onPressed: () => _showAppInfo(context),
           ),
         ],
       ),
@@ -81,7 +90,13 @@ class _ChatScreenState extends State<ChatScreen> {
           return Column(
             children: [
               const DrawerHeader(
-                child: Text('Cronologia Interviste'),
+                decoration: BoxDecoration(
+                  color: Color.fromARGB(255, 0, 120, 215), // Colore Azure
+                ),
+                child: Text(
+                  'Cronologia Chat',
+                  style: TextStyle(color: Colors.white, fontSize: 20),
+                ),
               ),
               Expanded(
                 child: ListView.builder(
@@ -90,19 +105,19 @@ class _ChatScreenState extends State<ChatScreen> {
                     final chat = chatProvider.chatHistory[index];
                     return ListTile(
                       title: Text(
-                        chat['title'] ?? 'Nuova intervista',
+                        chat['title'] ?? 'Nuova chat',
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
                       ),
                       subtitle: Text(
-                        chat['lastUpdated']?.substring(0, 10) ?? '',
+                        chat['lastUpdated']?.substring(0, 16) ?? '',
                       ),
                       onTap: () {
                         chatProvider.loadSpecificChat(index);
                         Navigator.pop(context);
                       },
                       trailing: IconButton(
-                        icon: const Icon(Icons.delete),
+                        icon: const Icon(Icons.delete, color: Colors.red),
                         onPressed: () =>
                             _confirmDelete(context, chatProvider, index),
                       ),
@@ -112,9 +127,9 @@ class _ChatScreenState extends State<ChatScreen> {
               ),
               Padding(
                 padding: const EdgeInsets.all(16.0),
-                child: ElevatedButton.icon(
+                child: FilledButton.icon(
                   icon: const Icon(Icons.add),
-                  label: const Text('Nuova Intervista'),
+                  label: const Text('Nuova Chat'),
                   onPressed: () {
                     chatProvider.startNewChat();
                     Navigator.pop(context);
@@ -133,7 +148,7 @@ class _ChatScreenState extends State<ChatScreen> {
       context: context,
       builder: (ctx) => AlertDialog(
         title: const Text('Conferma eliminazione'),
-        content: const Text('Eliminare questa intervista?'),
+        content: const Text('Eliminare questa chat dalla cronologia?'),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(ctx),
@@ -144,22 +159,24 @@ class _ChatScreenState extends State<ChatScreen> {
               provider.deleteChat(index);
               Navigator.pop(ctx);
             },
-            child: const Text('Elimina'),
+            child: const Text('Elimina', style: TextStyle(color: Colors.red)),
           ),
         ],
       ),
     );
   }
 
-  void _showInstructions(BuildContext context) {
+  void _showAppInfo(BuildContext context) {
     showDialog(
       context: context,
       builder: (ctx) => AlertDialog(
-        title: const Text('Istruzioni'),
+        title: const Text('Informazioni'),
         content: const Text(
-          '1. Inizia fornendo nome e data di nascita\n'
-          '2. Rispondi alle domande del sistema\n'
-          '3. Scrivi "FORNISCI I RISULTATI" per generare il report',
+          'Chatbot basato su Azure AI Services\n'
+          '• Azure OpenAI per le risposte\n'
+          '• Azure AI Search per i dati\n'
+          '• Azure TTS per la sintesi vocale\n\n'
+          'I dati delle conversazioni rimangono sul tuo dispositivo.',
         ),
         actions: [
           TextButton(
