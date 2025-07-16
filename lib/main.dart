@@ -171,13 +171,11 @@ class _ChatScreenState extends State<ChatScreen> {
       context: context,
       builder: (ctx) => AlertDialog(
         title: const Text('Informazioni'),
-        content: const Text(
-          'Chatbot basato su Azure AI Services\n'
-          '• Azure OpenAI per le risposte\n'
-          '• Azure AI Search per i dati\n'
-          '• Azure TTS per la sintesi vocale\n\n'
-          'I dati delle conversazioni rimangono sul tuo dispositivo.',
-        ),
+        content: const Text('Chatbot basato sui servizi Azure AI:\n'
+            '• Azure OpenAI per generare le risposte\n'
+            '• Azure Cognitive Search per recuperare i dati dal contenitore CSV\n'
+            '• Voce di Azure per la sintesi vocale naturale\n\n'
+            'I dati delle conversazioni rimangono memorizzati solo sul tuo dispositivo.'),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(ctx),

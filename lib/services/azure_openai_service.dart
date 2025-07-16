@@ -80,6 +80,7 @@ class AzureOpenAIService {
         2. Se la risposta non è nei dati, dillo chiaramente
         3. Mantieni un tono professionale
         4. Se rilevante, cita la fonte dei dati
+        5. Parla del prodotto senza aggiungere asterischi
         """
         },
         ...chatHistory.map((msg) => {
