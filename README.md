@@ -52,4 +52,4 @@ Il risultato è un assistente AI professionale che **risponde esclusivamente sul
 | **Storage locale**       | Salva cronologia e chat via `path_provider`    
 
 ## Esempio di utilizzo
-<img src="image.png" alt="alt text" width="50%" />
+<img src="image.png" alt="alt text" width="35%" />
