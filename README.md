@@ -50,3 +50,6 @@ Il risultato è un assistente AI professionale che **risponde esclusivamente sul
 | **Voce di Azure**        | Sintetizza vocalmente le risposte del modello                              |
 | **ChatProvider**         | Coordina lo stato, la voce, la cronologia e i messaggi                     |
 | **Storage locale**       | Salva cronologia e chat via `path_provider`    
+
+## Esempio di utilizzo
+![alt text](image.png)

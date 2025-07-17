@@ -172,9 +172,10 @@ class _ChatScreenState extends State<ChatScreen> {
       builder: (ctx) => AlertDialog(
         title: const Text('Informazioni'),
         content: const Text('Chatbot basato sui servizi Azure AI:\n'
-            '• Azure OpenAI per generare le risposte\n'
-            '• Azure Cognitive Search per recuperare i dati dal contenitore CSV\n'
-            '• Voce di Azure per la sintesi vocale naturale\n\n'
+            '• Azure OpenAI (GPT-4) per generare risposte contestuali\n'
+            '• Azure Cognitive Search per recuperare dati aziendali indicizzati\n'
+            '• Voce di Azure (Azure Speech Service) per leggere le risposte vocalmente\n'
+            '• Account di Archiviazione Azure come sorgente dati\n\n'
             'I dati delle conversazioni rimangono memorizzati solo sul tuo dispositivo.'),
         actions: [
           TextButton(
