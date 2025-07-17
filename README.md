@@ -53,3 +53,5 @@ Il risultato è un assistente AI professionale che **risponde esclusivamente sul
 
 ## Esempio di utilizzo
 <img src="image.png" alt="alt text" width="35%" />
+Come si può vedere, il Bot può essere utilizzato da qualsiasi supermercato o negozio per creare un assistente virtuale personalizzato, in grado di tenere i clienti sempre aggiornati.
+È importante che un responsabile si occupi della gestione del contenitore di informazioni, per garantire l’accuratezza dei dati ed evitare eventuali disagi ai clienti.
