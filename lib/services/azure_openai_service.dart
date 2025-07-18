@@ -140,7 +140,8 @@ class AzureOpenAIService {
 
       // Se la risposta è OK, restituisce il testo generato dal modello
       if (response.statusCode == 200) {
-        return jsonDecode(response.body)['choices'][0]['message']['content'];
+        final decoded = jsonDecode(utf8.decode(response.bodyBytes));
+        return decoded['choices'][0]['message']['content'];
       } else {
         // Altrimenti lancia un errore dettagliato
         throw Exception(
