@@ -4,16 +4,16 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Questo progetto è un'applicazione chatbot realizzata con Dart e Flutter.
+Integra i servizi Azure OpenAI per la generazione delle risposte e Azure TTS per la sintesi vocale, permettendo conversazioni sia testuali che vocali con lo stesso assistente.
 
-A few resources to get you started if this is your first Flutter project:
+Se vuoi approfondire Flutter e iniziare a sviluppare applicazioni simili, ecco alcune risorse utili:
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Per una guida completa allo sviluppo con Flutter, consulta la
+[documentazione online](https://docs.flutter.dev/), dove troverai tutorial, esempi, linee guida per lo sviluppo mobile e il riferimento completo alle API.
 
 ## 🤖 Azure AI Assistant Flutter
 
